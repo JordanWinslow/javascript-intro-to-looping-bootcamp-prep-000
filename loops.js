@@ -9,5 +9,10 @@ function forLoop(array){
   }
   return array
 }
-function 
-// while ([condition])
+function whileLoop(number){
+  // while ([condition])
+  while (number > 0){
+    console.log(number--)
+  }
+  return 'done'
+}
